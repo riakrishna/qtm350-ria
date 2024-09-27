@@ -106,11 +106,9 @@ To install the project dependencies, check `requirements.txt`.
     changes to the `main` branch on GitHub.
 
 ### Bonus Questions
-
-1. Rebase the `feature-enhancements` branch onto the `main` branch.
    
-2. Set up a Git alias named `git hist` that displays the commit history in a concise format.
+1. Set up a Git alias named `git hist` that displays the commit history in a concise format.
    
-3. Modify the `.gitignore` file to exclude files with the `.bak` extension and directories named `logs/` using a single command.
+2. Modify the `.gitignore` file to exclude files with the `.bak` extension and directories named `logs/` using a single command.
 
 Good luck!
