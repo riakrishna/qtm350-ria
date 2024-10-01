@@ -1,3 +1,5 @@
+##DEPENDENCIES
+To install the project dependencies, check `requirements.txt`
 ##LICENSE
 This project is licensed under the MIT License.
 
