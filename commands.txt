@@ -1,0 +1,37 @@
+git branch feature-enhancements
+touch commands.txt
+mkdir analysis
+touch analysis/{exploratory.ipynb,model_evaluation.ipynb}
+nano README.md
+git add README.md
+git commit -m "Add data analysis section and notebooks."
+mkdir models
+touch models/{baseline_model.py,improved_model.py}
+mkdir text_data
+mv data/*.txt text_data/
+touch requirements.txt
+git add requirements.txt
+git commit -m "Add dependencies file."
+mv src source_code
+git add source_code
+git commit -m "Rename src to source_code"
+nano README.md
+git add README.md
+git commit -m "Update README with license information"
+touch LICENSE.txt
+git add LICENSE.txt
+git commit -m "Add license"
+git switch main
+git pull origin main
+git merge feature-enhancements
+git push origin main
+git branch -d feature-enhancements
+git branch docs-update
+git add README.md
+git commit -m "Update README with dependencies information"
+git switch main
+git pull origin main
+git merge docs-update
+git push origin main
+git branch -d docs-update
+touch quiz_completed.md
