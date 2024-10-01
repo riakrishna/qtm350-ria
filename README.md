@@ -1,3 +1,6 @@
+##LICENSE
+This project is licensed under the MIT License.
+
 ##DATA ANALYSIS
 # QTM 350 - Quiz 01
 
